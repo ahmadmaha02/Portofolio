@@ -10,15 +10,11 @@ body {
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
-min-height: 38em;
-max-height:40em;
+height:40em;
 
 
 }
-.musicplayer{
-  position:absolute;
-  left: -400px;
-}
+
 .App {
   position: fixed;
   top: 0;
