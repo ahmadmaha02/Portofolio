@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <ReactAudioPlayer className="musicplayer"
   src={Music}
-  autoPlay
-  controls
-  loop
+  autoPlay={true}
+  volume={1.0}
+  loop={true}
 />
       <div className="container">
         <h1>
