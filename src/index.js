@@ -3,12 +3,19 @@ import ReactDOM from "react-dom";
 import Preloader from "./components/Preloader/Preloader";
 import Timer from "./components/Countdown/Timer";
 import Sub from "./components/Optin/Sub";
-
+import ReactAudioPlayer from 'react-audio-player';
 import "./styles.css";
+import Music from "./assets/music.mp3"
 
 function App() {
   return (
+    
     <div className="App">
+      <ReactAudioPlayer className="musicplayer"
+  src={Music}
+  autoPlay
+  controls
+/>
       <div className="container">
         <h1>
           Coming Soon!

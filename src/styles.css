@@ -15,7 +15,10 @@ max-height:40em;
 
 
 }
-
+.musicplayer{
+  position:absolute;
+  left: -400px;
+}
 .App {
   position: fixed;
   top: 0;
