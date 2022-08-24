@@ -15,6 +15,7 @@ function App() {
   src={Music}
   autoPlay
   controls
+  loop
 />
       <div className="container">
         <h1>
