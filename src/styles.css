@@ -10,7 +10,8 @@ body {
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
-height:40em;
+min-height: 38em;
+max-height:40em;
 
 
 }
